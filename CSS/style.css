@@ -1,0 +1,21 @@
+.title{
+    color: black;
+}
+
+body{
+    background-color: bisque;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
