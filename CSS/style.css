@@ -2,9 +2,20 @@
     color: black;
 }
 
-body{
-    background-color: bisque;
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/Fuentes/BebasNeue-Regular.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Birthstone';
+    src: url('/Fuentes/Birthstone-Regular.ttf') format('truetype');
+
+    font-family: 'Inria Sans';
+    src: url('/Fuentes/InriaSans-Regular.ttf') format('truetype');
+}
+
 
 body, html {
     height: 100%;
@@ -13,15 +24,51 @@ body, html {
 }
 table {
     width: 100%;
-    height: 100%;
     border-collapse: collapse;
 }
 table, th, td {
     border: 1px solid black;
 }
 
+.header{
+    height: 90px;
+    background-color: #d9c6b4;
+    text-align: center;
+    color: rgb(51, 6, 6);
+
+
+}
+
 .fondo{
-    bacground-color: #D9C6B4;
+    background-color: #d9c6b4;
 
 
+}
+
+.menu{
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas neue';
+    background-color: rgb(83, 14, 14);
+}
+
+.titles{
+    font-family: 'Birthstone';
+    color: rgb(83, 14, 14);
+    text-align: center;
+}
+
+
+.secciones{
+    height: 50px;
+    font-family: 'Inria Sans';
+    text-align: center;
+}
+
+.footer{
+    height: 50px;
+    font-family: 'Inria Sans';
+    text-align: center;
+    background-color: aliceblue;
+    border: 0px;
+    margin-top: 10px;
 }
