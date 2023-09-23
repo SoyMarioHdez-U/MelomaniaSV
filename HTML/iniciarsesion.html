@@ -28,46 +28,25 @@
 
     </table>
 
-<center>
-    <form>
-        <p></p>
-        <label for="usuario">Nombre de Usuario o Correo Electrónico:</label>
-        <input type="text" id="usuario" name="usuario" required><br><br>
-
-        <label for="nombre">Contraseña</label>
-        <input type="password" id="nombre" name="nombre" required><br><br>
-    
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required><br><br>
-    
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" required><br><br>
-    
-        <label for="direccion">Dirección:</label>
-        <textarea id="direccion" name="direccion" rows="4" required></textarea><br><br>
-    
-        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
-    
-        <input type="submit" value="Registrarse">
+    <h1 class="titles">Registro de Usuario</h1>
+    <form action="procesar_registro.php" method="POST">
+        <table>
+            <tr>
+                <td>Correo Electrónico:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Iniciar Sesión">
+                </td>
+            </tr>
+        </table>
     </form>
     <p></p>
-</center>
-
-    <table>
-        
-        <tr class="footer">
-            <td colspan="10">
-                <p></p>
-                <p></p>
-                <img src="/Img/Logo grande.png" height="50px"><br>
-                <img src="https://toppng.com/uploads/thumbnail/iconos-facebook-icono-de-facebook-twitter-png-y-psd-iconos-redes-sociales-11562849003jm0njbtfm3.png" height="50px"><br>
-                <p>© 2023 Melomanía. Universidad Católica de El Salvador.</p>
-            </td>
-        </tr>
-
-        
-    </table>
 
     
 </body>

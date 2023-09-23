@@ -4,12 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="C:\Users\50360\Documents\SEXTO CICLO - UNICAES\Tecnologías web\(ESTE ES EL BUENO) VS - MELOMANÍA\CSS\style.css">
-=======
+
     <link rel="stylesheet" href="/CSS/style.css">
-    
->>>>>>> bd1dd65836488a8fcb27d502b4a96f78b907bb4f
+
 </head>
 <body>
     
@@ -32,31 +29,42 @@
 
     </table>
 
-<center>
+    <h1 class="titles">Registro de Usuario</h1>
     <form action="procesar_registro.php" method="POST">
-        <p></p>
-        <label for="usuario">Nombre de Usuario:</label>
-        <input type="text" id="usuario" name="usuario" required><br><br>
-
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br><br>
-    
-        <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required><br><br>
-    
-        <label for="telefono">Teléfono:</label>
-        <input type="tel" id="telefono" name="telefono" required><br><br>
-    
-        <label for="direccion">Dirección:</label>
-        <textarea id="direccion" name="direccion" rows="4" required></textarea><br><br>
-    
-        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required><br><br>
-    
-        <input type="submit" value="Registrarse">
+        <table>
+            <tr>
+                <td>Nombre:</td>
+                <td><input type="text" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td>Apellido:</td>
+                <td><input type="text" name="apellido" required></td>
+            </tr>
+            <tr>
+                <td>Correo Electrónico:</td>
+                <td><input type="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Confirmar Contraseña:</td>
+                <td><input type="password" name="confirmar_password" required></td>
+            </tr>
+            <tr>
+                <td>Fecha de Nacimiento:</td>
+                <td><input type="date" name="fecha_nacimiento" required></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Registrarse">
+                </td>
+            </tr>
+        </table>
     </form>
     <p></p>
-</center>
 
     <table>
         
