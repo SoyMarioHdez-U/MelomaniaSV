@@ -49,6 +49,8 @@ table, th, td {
     color: rgb(255, 255, 255);
     font-family: 'Bebas neue';
     background-color: rgb(83, 14, 14);
+    text-align: center;
+
 }
 
 .titles{
@@ -70,5 +72,17 @@ table, th, td {
     text-align: center;
     background-color: aliceblue;
     border: 0px;
-    margin-top: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.urlIni{
+color: white;
+text-decoration: none;
+}
+
+.urlIni:hover{
+    color: rgb(219, 107, 129);
+    font-size: 18px;
+    text-align: center;
 }

@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
     <link rel="stylesheet" href="/CSS/style.css">
+    
 </head>
 <body>
+    
+    <table>
+        <tr class="header">
+            <td colspan="4" align="left"><a href="/HTML/index.html"><img src="/Img/Logo grande.png" height="50px"></a></td>
+            <td colspan="3">Iniciar Sesión</td>
+            
+            <td><a href="/HTML/registro.html">Registrarse</a></td>
+            <td>Carrito </td>
+        </tr>
+        <tr class="menu">
+            <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
+            <td>Tienda</td>
+            <td>Cursos</td>
+            <td>Contactos</td>
+            <td colspan="6"></td>
+            
+        </tr>
 
+    </table>
+
+<center>
     <form action="procesar_registro.php" method="POST">
+        <p></p>
+        <label for="usuario">Nombre de Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required><br><br>
     
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido" required><br><br>
-    
-        <label for="usuario">Nombre de Usuario:</label>
-        <input type="text" id="usuario" name="usuario" required><br><br>
     
         <label for="telefono">Teléfono:</label>
         <input type="tel" id="telefono" name="telefono" required><br><br>
@@ -29,6 +51,24 @@
     
         <input type="submit" value="Registrarse">
     </form>
+    <p></p>
+</center>
+
+    <table>
+        
+        <tr class="footer">
+            <td colspan="10">
+                <p></p>
+                <p></p>
+                <img src="/Img/Logo grande.png" height="50px"><br>
+                <img src="https://toppng.com/uploads/thumbnail/iconos-facebook-icono-de-facebook-twitter-png-y-psd-iconos-redes-sociales-11562849003jm0njbtfm3.png" height="50px"><br>
+                <p>© 2023 Melomanía. Universidad Católica de El Salvador.</p>
+            </td>
+        </tr>
+
+        
+    </table>
+
     
 </body>
 </html>
