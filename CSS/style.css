@@ -26,6 +26,11 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
+
+td{
+    height: 40px;
+}
+
 table, th, td {
     border: 1px solid black;
 }
@@ -84,5 +89,16 @@ text-decoration: none;
 .urlIni:hover{
     color: rgb(219, 107, 129);
     font-size: 18px;
+    text-align: center;
+}
+
+.urlUsr{
+    color: black;
+    text-decoration: none;
+    font-family: 'Inria Sans';
+    }
+    
+.urlUsr:hover{
+    color: rgb(219, 107, 129);
     text-align: center;
 }
