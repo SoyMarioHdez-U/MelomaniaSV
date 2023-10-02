@@ -1,49 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="title">Tienda</title>
+    <link rel="stylesheet" href="\CSS\style.css">
+
 </head>
-<body>
-    
 
-<header data-bs-theme="dark">
-  <div class="collapse text-bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4>About</h4>
-          <p class="text-body-secondary">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-        </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4>Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-        <strong>Album</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
+<body class="fondo">
 
-  <div>
-</header>
+    <!-- Parte de la tienda-->
+    <table>
+        <tr class="header">
+            <td colspan="4" align="left"><a href="/HTML/index.html"><img src="/Img/Logo grande.png" height="50px"></a></td>
+            <td colspan="3"><a class="urlUsr" href="/HTML/iniciarsesion.html">Iniciar Sesión</a></td>
+            
+            <td class="urlUsr"><a class="urlUsr" href="/HTML/registro.html">Registrarse</a></td>
+            <td class="urlUsr">Carrito </td>
+        </tr>
+        <tr class="menu">
+            <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
+            <td><a class="urlIni" href="/HTML/tienda.html">Tienda</a></td>
+            <td><a class="urlIni" href="/HTML/cursos.html">Cursos</a></td>
+            <td><a class="urlIni">Contactos</a></td>
+            <td colspan="6"></td>
+            
+        </tr>
+        <tr>
+            <td colspan = "10" >
+                <p></p>         
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan = "2" >
+                Filtrar por precio               
+            </td>
+            <td colspan = "7">
+                <p></p>
+                Inicio/Tienda
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                <p></p>
+                ■-----------■
+                <p></p>
+            </td>
+            <td colspan = "7" rowspan="13">
+                <b>TIENDA</b>
+            </td>
+        </tr>
+        <tr>
+            <td > 
+                Filtrar
+            </td>
+            <td > 
+                Precio: $0 - $5,000
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "10" >
+                <p></p>           
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Electrónicos y de Sonido
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "1"> 
+                Amplificadores
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "1"> 
+                Micrófonos
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "1"> 
+                Sintetizadores
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Instrumentos
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "1"> 
+                Guitarras
+            </td>            
+        </tr>
+        <tr>
+            <td> 
+                Acústicas
+            </td>            
+        </tr>
+        <tr>
+            <td> 
+                Eléctricas
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Percusión
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Pianos
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Vientos
+            </td>            
+        </tr>
+        <tr>
+            <td> 
+                Madera
+            </td> 
+
+            <td colspan="1" rowspan="3"> 
+                <p> </p>
+            </td> 
+            <td colspan="2" rowspan="5" class="urlIni"> 
+                <center>
+                    Electrónico y de sonido
+                </center>
+            </td> 
+            <td colspan="2" rowspan="5"> 
+                <center>
+                    <a class="urlIni" href="/HTML/instrumentos.html">Instrumentos</a>
+                </center>
+            </td>  
+            <td colspan="3" rowspan="5" class="urlIni"> 
+                <center>
+                    Libros
+                </center>
+            </td>            
+        </tr>
+        <tr>
+            <td> 
+                Metales
+            </td>            
+        </tr>
+        <tr>
+            <td> 
+                Otros
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Violines
+            </td>            
+        </tr>
+        <tr>
+            <td colspan = "2"> 
+                Libros
+            </td>            
+        </tr>
+        <tr>
+            <p>
+            </p>
+        </tr>
+        <tr>
+            <td colspan = "2" rowspan="2"> 
+                <p></p>
+            </td>            
+        </tr>
+
+        <tr>
+            <p>
+            </p>
+        </tr>
+
+        <tr class="footer">
+            <td colspan="10">
+                <p></p>
+                <p></p>
+                <img src="/Img/Logo grande.png" height="50px"><br>
+                <img src="https://toppng.com/uploads/thumbnail/iconos-facebook-icono-de-facebook-twitter-png-y-psd-iconos-redes-sociales-11562849003jm0njbtfm3.png" height="50px"><br>
+                <p>© 2023 Melomanía. Universidad Católica de El Salvador.</p>
+            </td>
+        </tr>
+   
+    </table>
+
+       
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
+
 </html>
