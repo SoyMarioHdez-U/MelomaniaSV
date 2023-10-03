@@ -6,7 +6,7 @@
     <title>Bienvenido - MelomaniaSV</title>
 
     <!-- Estilos de css y bootstrap -->
-    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
+    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
     
     
 </head>
@@ -23,8 +23,9 @@
         </div>
         <div class="nav">
             <div><a href="http://localhost//MelomaniaSV/HTML/">Inicio</a></div>
+            <!-- Hipervinculo para acceder a la tienda y cursos-->
             <a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a>
-            <!-- Hipervinculo para acceder a la tienda -->
+            <a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a>
         </div>
         <div class="content">
             content
