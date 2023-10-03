@@ -8,7 +8,6 @@
 </head>
 <body>
     
-<?php> 
 <header data-bs-theme="dark">
   <div class="collapse text-bg-dark" id="navbarHeader">
     <div class="container">
