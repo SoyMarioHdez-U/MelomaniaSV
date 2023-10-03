@@ -12,6 +12,12 @@ p{
     color: black;
 }
 
+.titles{
+    font-family: 'Birthstone';
+    color: rgb(83, 14, 14);
+    text-align: center;
+}
+
 
 @font-face {
     font-family: 'Bebas Neue';
@@ -30,6 +36,7 @@ p{
     margin: 0px;
     height: 100%;
     background-color: rgb(233, 204, 204);
+    width: 100%
 }
 
 .header{
@@ -104,26 +111,17 @@ p{
     color:rgb(255, 195, 195);
 }
 
-.content{
-    width: 100%;
-}
 
-body, html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+html, body {
+    min-height: 100%;
 }
 
 .barralateral {
-    background-color:#999;
+    background: color #d9c6b4;;
     float:left;
-    height:480px;
+    height:400px;
     padding:20px;
-    width:180px;
+    width:250px;
 }
 
-#contenedor {
-    margin:0 auto;
-    width:800px;
-}
 
