@@ -2,32 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title class="title">Cursos</title>
-    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
 
 </head>
 <body class="fondo">
 
-    <!-- Parte de los cursos-->
-    <div>
-        <table border="1" cellspasing="0" cellpadding="5">
-        <tr class="header">
-            <td colspan="4" align="left"><a href="http://localhost/melomania/MelomaniaSV/HTML/index.php"><img src="/Img/Logo grande.png" height="50px"></a></td>
-            <td colspan="3"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
-            
-            <td class="urlUsr"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
-            <td class="urlUsr">Carrito </td>
-        </tr>
-        <tr class="menu">
-            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/index.php">Inicio</a></td>
-            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
-            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
-            <td><a class="urlIni">Contactos</a></td>
-            <td colspan="6"></td>
-            
-        </tr>
+    <div id = "contenedor">
+  <!-- Barra superior de inicio y menú -->  
+  <table>
+          <tr class="header">
+              <td colspan="4" align="left"><a href="http://localhost//MelomaniaSV/HTML/"><img src="/Img/Logo grande.png" height="50px"></a></td>
+              <td colspan="3"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
+              
+              <td class="urlUsr"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
+              <td class="urlUsr">Carrito </td>
+          </tr>
+          <tr class="menu">
+              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/index.php">Inicio</a></td>
+              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
+              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
+              <td><a class="urlIni">Contactos</a></td>
+              <td colspan="6"></td>
+              
+          </tr>
+        </div>
+    </table>
             <tr class="secciones">
                 <td colspan="10"><h1 class="titles">Cursos</h1>
                 <p class="titleContent">Es una de nuestras metas brindarte herramientas<br> 
