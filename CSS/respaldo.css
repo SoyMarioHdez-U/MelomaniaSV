@@ -1,0 +1,94 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    
+}
+
+.header{
+    height: 90px;
+    background-color: #d9c6b4;
+    text-align: center;
+    color: rgb(51, 6, 6);
+
+
+}
+
+.fondo{
+    background-color: #d9c6b4;
+
+
+}
+
+.menu{
+    color: rgb(255, 255, 255);
+    font-family: 'Bebas neue';
+    background-color: rgb(83, 14, 14);
+    text-align: center;
+
+}
+
+.titles{
+    font-family: 'Birthstone';
+    color: rgb(83, 14, 14);
+    text-align: center;
+}
+
+
+.secciones{
+    height: 50px;
+    font-family: 'Inria Sans';
+    text-align: center;
+}
+
+.footer{
+    height: 50px;
+    font-family: 'Inria Sans';
+    text-align: center;
+    background-color: aliceblue;
+    border: 0px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.urlIni{
+color: white;
+text-decoration: none;
+}
+
+.urlIni:hover{
+    color: rgb(219, 107, 129);
+    font-size: 18px;
+    text-align: center;
+}
+
+.urlUsr{
+    color: black;
+    text-decoration: none;
+    font-family: 'Inria Sans';
+    }
+    
+.urlUsr:hover{
+    color: rgb(219, 107, 129);
+    text-align: center;
+}
+
+
+.container{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #DF4B05;
+}
+
+
+
+
+
+
+

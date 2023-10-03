@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px; 
+}
+
+p{
+    margin: 0px;
+}
+
 .title{
     color: black;
 }
@@ -16,145 +26,91 @@
     src: url('/Fuentes/InriaSans-Regular.ttf') format('truetype');
 }
 
+.container{
+    margin: 0px;
+    height: 100%;
+    background-color: rgb(233, 204, 204);
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 60%;
+    float: left;
+    margin: 0px;
+    margin-left: 1%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-65%);
+    
+}
+
+
+.ini-sesion a{
+    color: black;
+    text-decoration: none;
+}
+.ini-sesion:hover a{
+    color: brown;
+}
+
+.registro:hover{
+    color: brown;
+}
+
+
+.sesion{
+    height: 45%;
+    font-family: 'Inria Sans';
+    text-align: center;
+    display: flex;
+    color: black;
+
+}
+
+.carrito{
+    height: 20%;
+}
+
+.nav{
+    
+    font-family: 'Bebas Neue';
+    width: 100%;
+    background-color: rgb(73, 7, 7);
+    color:rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    display: flex;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1%;
+}
+
+.nav:hover a{
+    text-decoration: none;
+    color:rgb(255, 195, 195);
+}
+
+.content{
+    width: 100%;
+}
 
 body, html {
     height: 100%;
     margin: 0;
     padding: 0;
 }
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
 
-
-
-table, th, td {
-    border: 1px solid black;
-    
-}
-
-.header{
-    height: 90px;
-    background-color: #d9c6b4;
-    text-align: center;
-    color: rgb(51, 6, 6);
-
-
-}
-
-.fondo{
-    background-color: #d9c6b4;
-
-
-}
-
-.menu{
-    color: rgb(255, 255, 255);
-    font-family: 'Bebas neue';
-    background-color: rgb(83, 14, 14);
-    text-align: center;
-
-}
-
-.titles{
-    font-family: 'Birthstone';
-    color: rgb(83, 14, 14);
-    text-align: center;
-}
-
-
-.secciones{
-    height: 50px;
-    font-family: 'Inria Sans';
-    text-align: center;
-}
-
-.footer{
-    height: 50px;
-    font-family: 'Inria Sans';
-    text-align: center;
-    background-color: aliceblue;
-    border: 0px;
-    padding: 20px;
-    margin: 10px;
-}
-
-.urlIni{
-color: white;
-text-decoration: none;
-}
-
-.urlIni:hover{
-    color: rgb(219, 107, 129);
-    font-size: 18px;
-    text-align: center;
-}
-
-.urlUsr{
-    color: black;
-    text-decoration: none;
-    font-family: 'Inria Sans';
-    }
-    
-.urlUsr:hover{
-    color: rgb(219, 107, 129);
-    text-align: center;
-}
-
-/*EJEMPLO
-*/
-.dropdownmenu ul, .dropdownmenu li {
-	margin: 0;
-	padding: 0;
-}
-.dropdownmenu ul {
-	background: gray;
-	list-style: none;
-	width: 100%;
-}
-.dropdownmenu li {
-	float: left;
-	position: relative;
-	width:auto;
-}
-.dropdownmenu a {
-	background: #30A6E6;
-	color: #FFFFFF;
-	display: block;
-	font: bold 12px/20px sans-serif;
-	padding: 10px 25px;
-	text-align: center;
-	text-decoration: none;
-	-webkit-transition: all .25s ease;
-	-moz-transition: all .25s ease;
-	-ms-transition: all .25s ease;
-	-o-transition: all .25s ease;
-	transition: all .25s ease;
-}
-.dropdownmenu li:hover a {
-	background: #000000;
-}
-#submenu {
-	left: 0;
-	opacity: 0;
-	position: absolute;
-	top: 35px;
-	visibility: hidden;
-	z-index: 1;
-}
-li:hover ul#submenu {
-	opacity: 1;
-	top: 40px;	/* adjust this as per top nav padding top & bottom comes */
-	visibility: visible;
-}
-#submenu li {
-	float: none;
-	width: 100%;
-}
-#submenu a:hover {
-	background: #DF4B05;
-}
-#submenu a {
-	background-color:#000000;
-}
