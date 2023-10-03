@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title class="title">Melomanía SV - Bienvenido</title>
-    <!-- <link rel="stylesheet" href="http://localhost/www/MelomaniaSV/CSS"> -->
     <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
 </head>
 
