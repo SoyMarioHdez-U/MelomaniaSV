@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title class="title">Cursos</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css">
 
 </head>
 <body class="fondo">
@@ -13,26 +13,21 @@
     <!-- Parte de los cursos-->
     <div>
         <table border="1" cellspasing="0" cellpadding="5">
-            <tr class="header">
-                <td colspan="4" align="left"><a href="/HTML/index.html"><img src="/Img/Logo grande.png" height="50px"></a></td>
-                <td colspan="3"><a class="urlUsr" href="/HTML/iniciarsesion.html">Iniciar Sesión</a></td>
-                
-                <td class="urlUsr"><a class="urlUsr" href="/HTML/registro.html">Registrarse</a></td>
-                <td class="urlUsr">Carrito </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                </td>
-            </tr>
-
-            <tr class="menu">
-                <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
-                <td><a class="urlIni" href="/HTML/tienda.html">Tienda</a></td>
-                <td><a class="urlIni" href="/HTML/cursos.html">Cursos</a></td>
-                <td><a class="urlIni">Contactos</a></td>
-                <td colspan="6"></td>
-                
-            </tr>
+        <tr class="header">
+            <td colspan="4" align="left"><a href="http://localhost/melomania/MelomaniaSV/HTML/index.php"><img src="/Img/Logo grande.png" height="50px"></a></td>
+            <td colspan="3"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
+            
+            <td class="urlUsr"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
+            <td class="urlUsr">Carrito </td>
+        </tr>
+        <tr class="menu">
+            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/index.php">Inicio</a></td>
+            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
+            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
+            <td><a class="urlIni">Contactos</a></td>
+            <td colspan="6"></td>
+            
+        </tr>
             <tr class="secciones">
                 <td colspan="10"><h1 class="titles">Cursos</h1>
                 <p class="titleContent">Es una de nuestras metas brindarte herramientas<br> 

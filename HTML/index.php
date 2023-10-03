@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title class="title">Melomanía SV - Bienvenido</title>
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css">
 
 </head>
 
@@ -13,16 +13,16 @@
 
     <table>
         <tr class="header">
-            <td colspan="4" align="left"><a href="/HTML/index.html"><img src="/Img/Logo grande.png" height="50px"></a></td>
-            <td colspan="3"><a class="urlUsr" href="/HTML/iniciarsesion.html">Iniciar Sesión</a></td>
+            <td colspan="4" align="left"><a href="http://localhost/melomania/MelomaniaSV/HTML/index.php"><img src="/Img/Logo grande.png" height="50px"></a></td>
+            <td colspan="3"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
             
-            <td class="urlUsr"><a class="urlUsr" href="/HTML/registro.html">Registrarse</a></td>
+            <td class="urlUsr"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
             <td class="urlUsr">Carrito </td>
         </tr>
         <tr class="menu">
-            <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
-            <td><a class="urlIni" href="/HTML/tienda.html">Tienda</a></td>
-            <td><a class="urlIni" href="/HTML/cursos.html">Cursos</a></td>
+            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/index.php">Inicio</a></td>
+            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
+            <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
             <td><a class="urlIni">Contactos</a></td>
             <td colspan="6"></td>
             
@@ -45,7 +45,7 @@
                 o perfeccionamos tu técnica. <br>
                 Tenemos cursos disponibles para todo tipo de músicos, <br>
                 desde principiante hasta los más avanzados.</p>
-                <a href="/HTML/cursos.html"><button>Ir a los cursos</button></a>
+                <a href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php"><button>Ir a los cursos</button></a>
                 <p></p>
                 <p></p>
             </td>
@@ -54,7 +54,7 @@
         <tr class="secciones">
             <td colspan="10"><h1 class="titles">Tienda</h1>
             <p class="titleContent">Te ofrecemos instrumentos musicales<br> y equipo de sonido de las marcas más reconocidas.</p>
-                <a href="/HTML/tienda.html"><button>Ir a la Tienda</button></a>
+                <a href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php"><button>Ir a la Tienda</button></a>
                 <p></p>
                 <p></p>
             </td>
