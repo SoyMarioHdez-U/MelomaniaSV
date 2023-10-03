@@ -8,7 +8,36 @@
     <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
 </head>
 <body class="fondo">
+
+  <div id = "contenedor">
+  <!-- Barra superior de inicio y menú -->  
+  <table>
+          <tr class="header">
+              <td colspan="4" align="left"><a href="http://localhost//MelomaniaSV/HTML/"><img src="/Img/Logo grande.png" height="50px"></a></td>
+              <td colspan="3"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
+              
+              <td class="urlUsr"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
+              <td class="urlUsr">Carrito </td>
+          </tr>
+          <tr class="menu">
+              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/index.php">Inicio</a></td>
+              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
+              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
+              <td><a class="urlIni">Contactos</a></td>
+              <td colspan="6"></td>
+              
+          </tr>
+        </div>
+    </table>
+
   
+  <!-- El resto de las cosas -->
+
+  <div id = "contenedor">
+    
+    <p>AQUI VA el menu o idk</p>
+          
+  </div>
   <main>
     <!-- Parte cabezera de la tienda (Falta el menú principal, el header) -->
     <section class="py-5 text-center container">
@@ -21,18 +50,15 @@
       
     <!-- Aquí se desplegarán los productos -->
     <section>
-
+      
       <div id="content" class="site-content">
-        <div class="container">
           <!-- Barra de navegación -->
-          <div class="ast-container" id="secondary" itemtype="https://schema.org/WPSideBar" itemscope="itemscope">
-            <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
-            <div class ="sidebar-main">
-              <div class = "ast-filter-wrap"> 
-                <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
-              </div>
-            </div>
+          <div class="barralateral">
+              <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
+              <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
           </div>
+        <!-- productos -->
+        <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
@@ -174,8 +200,7 @@
           </div>
         </div>
       </div>
-    
-
+  
     </section>
 
   </main>

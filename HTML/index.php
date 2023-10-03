@@ -23,6 +23,8 @@
         </div>
         <div class="nav">
             <div><a href="http://localhost//MelomaniaSV/HTML/">Inicio</a></div>
+            <a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a>
+            <!-- Hipervinculo para acceder a la tienda -->
         </div>
         <div class="content">
             content

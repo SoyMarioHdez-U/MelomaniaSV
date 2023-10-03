@@ -114,3 +114,16 @@ body, html {
     padding: 0;
 }
 
+.barralateral {
+    background-color:#999;
+    float:left;
+    height:480px;
+    padding:20px;
+    width:180px;
+}
+
+#contenedor {
+    margin:0 auto;
+    width:800px;
+}
+
