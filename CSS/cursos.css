@@ -1,189 +1,32 @@
-*{
-    box-sizing: border-box;
-    margin:0px;
-    padding: 0px; 
-}
-
-.fondo{
-    background-color: color #d9c6b4;
-    width: 100%;
-}
-
-p{
-    margin: 0px;
-}
-
-.title{
-    color: black;
-}
-
-.titles{
-    font-family: 'Birthstone';
-    color: rgb(83, 14, 14);
-    text-align: center;
-}
-
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('/Fuentes/BebasNeue-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'Birthstone';
-    src: url('/Fuentes/Birthstone-Regular.ttf') format('truetype');
-
-    font-family: 'Inria Sans';
-    src: url('/Fuentes/InriaSans-Regular.ttf') format('truetype');
-}
-
-.cabezera
-{
-    padding: 100px;
-    width: 100%;
-    border-collapse: collapse;
-    background: color #d9c6b4;
-}
-
-.botones
-{
-    background: color #d9c6b4;
-    font-family: 'Inria Sans';
-    color: #593c32;
-}
-
-.container{
-    width: 100%;
-    border-collapse: collapse;
-    background-image: color #d9c6b4;
-}
-
-.header{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    height: 60%;
-    float: left;
-    margin: 0px;
-    margin-left: 1%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-65%);
-    
-}
-
-
-.ini-sesion a{
-    color: black;
-    text-decoration: none;
-}
-.ini-sesion:hover a{
-    color: brown;
-}
-
-.registro:hover{
-    color: brown;
-}
-
-
-.sesion{
-    height: 45%;
-    font-family: 'Inria Sans';
-    text-align: center;
-    display: flex;
-    color: black;
-
-}
-
-.carrito{
-    height: 20%;
-}
-
-.nav{
-    
-    font-family: 'Bebas Neue';
-    width: 100%;
-    background-color: rgb(73, 7, 7);
-    color:rgb(255, 255, 255);
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-    padding: 4px;
-    border-top-width: 1px;
-    border-right-width: 0px;
-    border-bottom-width: 1px;
-    border-left-width: 0px;
-    display: flex;
-}
-
-.nav a{
-    text-decoration: none;
-    color: white;
-    margin-left: 1%;
-}
-
-.nav:hover a{
-    text-decoration: none;
-    color:rgb(255, 195, 195);
-}
-
-
-html, body {
-    min-height: 100%;
-}
-
-.barralateral {
-    background: color #d9c6b4;
-    float:left;
-    height:400px;
-    padding:20px;
-    width:250px;
-}
-
-.BotonC {
-
-  background: color #d9c6b400;
-    font-family: 'Birthstone';
-    font-size: 30px;
-    color: #593c32;
-    text-align: center;
-    width: 150px;
-    height: 50px;
-
-}
-
 .container_carru {
-    background: #d9c6b4;
-    position: relative;
+    background: brown;
+    position: absolute;
     /*cierre actions*/
     /*cierre items*/
   }
   .container_carru #actions #arrowrigth .arrowrigth {
     cursor: pointer;
-    top: 30%;
-    width: 3%;
+    top: 50%;
+    width: 10%;
     position: absolute;
     z-index: 201;
     right: 10px;
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+    -webkit-transform: rotate(268deg);
+    -moz-transform: rotate(268deg);
+    -o-transform: rotate(268deg);
+    transform: rotate(268deg);
   }
   .container_carru #actions #arrowleft .arrowleft {
     cursor: pointer;
-    top: 30%;
-    width: 3%;
+    top: 50%;
+    width: 10%;
     position: absolute;
     z-index: 201;
     left: 10px;
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   .container_carru #items {
     padding: 5%;
