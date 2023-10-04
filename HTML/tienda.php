@@ -34,9 +34,8 @@
     <!-- Parte cabezera de la tienda-->
     <section>
       <div class="cabezera">
-        <img src="http://localhost/MelomaniaSV/Img/tienda/tienda.jpeg" alt="tienda" width="1110px" height="300px">
-          <div class="texto-superpuesto">
-            <h1>Tienda</h1>
+        <img src="http://localhost/MelomaniaSV/Img/tienda/tienda.jpeg" alt="tienda" width="1110px" height="500px">
+          <div>
           </div>
       </div>
     </section>
