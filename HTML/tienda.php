@@ -22,56 +22,168 @@
     <!-- Aquí se desplegarán los productos -->
     <section>  
       <div class="container"> <!-- Toda la parte de las secciones y barra-->
-      
-        <!-- Barra de navegación -->
+          <!-- Barra de navegación -->
         <div class="barralateral">
-          <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
-          <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
-        </div>
-
-        <!-- productos -->
+          <ul>
+            <li><button class="botones">Intrumentos</button></li>
+            <li><button class="botones">Equipo de sonido</button></li>
+            <li><button class="botones">Libros</button></li>
+          </ul>
+        </div>        
+      
+     <!-- productos -->
         <div class="container">
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
-              <div class="card shadow-sm">
-                <img src="http://localhost/melomania/MelomaniaSV/Img/equiposonido.jpeg" alt="" width="267" height="200">
+              <div class="card shadow-sm" >
+                <img src="http://localhost/melomania/MelomaniaSV/Img/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg" alt="" width="267" height="200">
                 <div class="card-body">
-                  <h5 class="card-title">Electrónicos y de sonido</h5>
+                  <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
+                  <p class="card-text">$200.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
+                    </div>
+                      <a href="" class="btn btn-success">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg" alt="" width="267" height="200">
+                <div class="card-body">
+                  <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
+                  <p class="card-text">$500.00 </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <a href="" class="btn btn-primary">Detalles</a>
+                    </div>
+                        <a href="" class="btn btn-success">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
 
                     </div>
+                      <a href="" class="btn btn-success">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
+
+                    </div>
+                      <a href="" class="btn btn-success">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
+
+                    </div>
+                      <a href="" class="btn btn-success">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
+
+                    </div>
+                      <a href="" class="btn btn-success">Agregar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card shadow-sm">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
+
+                    </div>
+                      <a href="" class="btn btn-success">Agregar</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/instrumentos.jpeg" alt="" width="267" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">Instrumentos</h5>
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
 
                     </div>
+                      <a href="" class="btn btn-success">Agregar</a>
                   </div>
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/libros.jpeg" alt="" width="267" height="200">
-                <div class="card-body">
-                  <h5 class="card-title">Libros</h5>
+              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+                <div class="card-body" >
+                  <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
+                  <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
+                      <a href="" class="btn btn-primary">Detalles</a>
 
                     </div>
+                      <a href="" class="btn btn-success">Agregar</a>
                   </div>
                 </div>
               </div>
             </div>
-  
+            
+            
     </section>
 
   </main>

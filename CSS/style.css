@@ -45,6 +45,13 @@ p{
     background: color #d9c6b4;
 }
 
+.botones
+{
+    background: color #d9c6b4;
+    font-family: 'Inria Sans';
+    color: #593c32;
+}
+
 .container{
     width: 100%;
     border-collapse: collapse;
