@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrarse</title>
 
-    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css">
 
 </head>
 <body>

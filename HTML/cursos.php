@@ -43,7 +43,7 @@
     </table>
 </div>
 
-<div class="container_carru">
+<div class= "container_carru">
     <!--carrusel cursos basicos-->
 
     <h1 class="titles">Cursos Basicos</h1>
