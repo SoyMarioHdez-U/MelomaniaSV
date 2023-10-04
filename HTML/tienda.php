@@ -47,9 +47,9 @@
           <!-- Barra de navegación -->
         <div class="barralateral">
           <ul>
-            <li><button class="botones">Intrumentos</button></li>
-            <li><button class="botones">Equipo de sonido</button></li>
-            <li><button class="botones">Libros</button></li>
+            <li><button class="mi-boton">Intrumentos</button></li>
+            <li><button class="mi-boton">Equipo de sonido</button></li>
+            <li><button class="mi-boton">Libros</button></li>
           </ul>
         </div>        
       
@@ -64,9 +64,9 @@
                   <p class="card-text">$200.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -80,9 +80,9 @@
                   <p class="card-text">$500.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                        <a href="" class="btn btn-primary">Detalles</a>
+                        <a href="" class="botondetalles">Detalles</a>
                     </div>
-                        <a href="" class="btn btn-success">Agregar</a>
+                        <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -96,10 +96,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -113,10 +113,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -130,10 +130,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -147,10 +147,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -164,10 +164,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -180,10 +180,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
@@ -196,10 +196,10 @@
                   <p class="card-text">$20.00</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="" class="btn btn-primary">Detalles</a>
+                      <a href="" class="botondetalles">Detalles</a>
 
                     </div>
-                      <a href="" class="btn btn-success">Agregar</a>
+                      <a href="" class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
