@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
 
 </head>
 <body class="fondo">
@@ -16,15 +16,15 @@
   <table>
           <tr class="header">
               <td colspan="4" align="left"><a href="http://localhost//MelomaniaSV/HTML/"><img src="/Img/Logo grande.png" height="50px"></a></td>
-              <td colspan="3"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
+              <td colspan="3"><a class="urlUsr" href="http://localhost/MelomaniaSV/HTML/iniciarsesion.php">Iniciar Sesión</a></td>
               
-              <td class="urlUsr"><a class="urlUsr" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
+              <td class="urlUsr"><a class="urlUsr" href="http://localhost/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
               <td class="urlUsr">Carrito </td>
           </tr>
           <tr class="menu">
-              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/index.php">Inicio</a></td>
-              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
-              <td><a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
+              <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML/index.php">Inicio</a></td>
+              <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
+              <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a></td>
               <td><a class="urlIni">Contactos</a></td>
               <td colspan="6"></td>
               
