@@ -133,8 +133,8 @@ html, body {
   }
   .container_carru #actions #arrowrigth .arrowrigth {
     cursor: pointer;
-    top: 50%;
-    width: 5%;
+    top: 30%;
+    width: 3%;
     position: absolute;
     z-index: 201;
     right: 10px;
@@ -145,8 +145,8 @@ html, body {
   }
   .container_carru #actions #arrowleft .arrowleft {
     cursor: pointer;
-    top: 50%;
-    width: 5%;
+    top: 30%;
+    width: 3%;
     position: absolute;
     z-index: 201;
     left: 10px;
