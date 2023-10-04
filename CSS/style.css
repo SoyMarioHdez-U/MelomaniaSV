@@ -5,7 +5,7 @@
 }
 
 .fondo{
-    background: color #d9c6b4;
+    background-color: color #d9c6b4;
     width: 100%;
 }
 
@@ -37,10 +37,18 @@ p{
     src: url('/Fuentes/InriaSans-Regular.ttf') format('truetype');
 }
 
-.container{
+.cabezera
+{
+    padding: 100px;
     width: 100%;
     border-collapse: collapse;
     background: color #d9c6b4;
+}
+
+.container{
+    width: 100%;
+    border-collapse: collapse;
+    background-image: color #d9c6b4;
 }
 
 .header{
