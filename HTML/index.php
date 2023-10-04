@@ -26,6 +26,7 @@
             <!-- Hipervinculo para acceder a la tienda y cursos-->
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
+            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/.php">Contactos</a>
         </div>
         <div class="content">
             content

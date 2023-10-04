@@ -24,9 +24,8 @@
         </div>
         <div class="nav">
             <div class="urlIni firstNav"><a href="http://localhost//MelomaniaSV/HTML/index.php">Inicio</a></div>
-            <!-- Hipervinculo para acceder a la tienda e Inicio-->
-            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/index.php">Inicio</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
+            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
             <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/.php">Contactos</a>
         </div>
    
@@ -127,6 +126,6 @@
             <p>© 2023 Melomanía.</p>
             <p class="lastFooter">Tecnologías Web - Universidad Católica de El Salvador</p>
         </div>
-    </div>
+</div>
 </body>
 </html>
