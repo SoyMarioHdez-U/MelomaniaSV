@@ -9,13 +9,11 @@
 </head>
 
 <body class="fondo">
-
-  <!-- El resto de las cosas -->
   <main>
     <!-- Parte cabezera de la tienda-->
-    <section class="py-5 text-center container">
-      <div class="row py-lg-5">
-        <div class="col-lg-6 col-md-8 mx-auto">
+    <section>
+      <div class="container">
+        <div>
           <h1 class="titles">Tienda</h1>
         </div>
       </div>
@@ -23,7 +21,7 @@
       
     <!-- Aquí se desplegarán los productos -->
     <section>  
-      <div> <!-- Toda la parte de las secciones y barra-->
+      <div class="container"> <!-- Toda la parte de las secciones y barra-->
         <!-- Barra de navegación -->
         <div class="barralateral">
           <p>AQUI VA LA BARRA DE NAVEGACIÓN</p>
@@ -82,8 +80,6 @@
     </section>
 
   </main>
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

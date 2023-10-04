@@ -4,6 +4,11 @@
     padding: 0px; 
 }
 
+.fondo{
+    background: color #d9c6b4;
+    width: 100%;
+}
+
 p{
     margin: 0px;
 }
@@ -33,10 +38,9 @@ p{
 }
 
 .container{
-    margin: 0px;
-    height: 100%;
-    background-color: rgb(233, 204, 204);
-    width: 100%
+    width: 100%;
+    border-collapse: collapse;
+    background: color #d9c6b4;
 }
 
 .header{
@@ -117,7 +121,7 @@ html, body {
 }
 
 .barralateral {
-    background: color #d9c6b4;;
+    background: color #d9c6b4;
     float:left;
     height:400px;
     padding:20px;
