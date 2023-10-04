@@ -4,6 +4,7 @@
     padding: 0px; 
 }
 
+
 .fondo{
     background-color: color #d9c6b4;
     width: 100%;
@@ -63,6 +64,7 @@ p{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -71,15 +73,20 @@ p{
     margin: 0px;
     margin-left: 1%;
     position: relative;
-    top: 50%;
-    transform: translateY(-65%);
+    transform: translateY(-15%);
     
+}
+
+.content{
+  height: 360px;
 }
 
 
 .ini-sesion a{
+    height: auto;
     color: black;
     text-decoration: none;
+    
 }
 .ini-sesion:hover a{
     color: brown;
@@ -89,18 +96,50 @@ p{
     color: brown;
 }
 
+.registro{
+    align-items: center;
+}
+
 
 .sesion{
-    height: 45%;
     font-family: 'Inria Sans';
     text-align: center;
     display: flex;
     color: black;
+    font-size: 12px;
+    margin-right: 5%;
+    height: auto;
+}
 
+
+
+.footer{
+  font-family: 'Inria Sans';
+  align-items: center;
+  text-align: center;
+  background-color: #f8f3ee;
+}
+
+.logoFooter{
+  padding-top: 30px;
+}
+
+.lastFooter{
+  padding-bottom: 30px;
+}
+
+.socialNetworks{
+  padding: 10px;
 }
 
 .carrito{
     height: 20%;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.carrito:hover{
+    color: brown;
 }
 
 .nav{
@@ -119,15 +158,22 @@ p{
     display: flex;
 }
 
+.firstNav{
+    margin-left: 3%;
+}
 .nav a{
     text-decoration: none;
     color: white;
-    margin-left: 1%;
+    margin-left: 5%;
 }
 
-.nav:hover a{
-    text-decoration: none;
+.urlIni:hover a{
+
     color:rgb(255, 195, 195);
+}
+
+.urlMenu:hover{
+    color: rgb(255, 195, 195);
 }
 
 

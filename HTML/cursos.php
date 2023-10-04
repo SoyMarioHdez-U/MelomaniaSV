@@ -22,7 +22,7 @@
               <td class="urlUsr"><a class="urlUsr" href="http://localhost/MelomaniaSV/HTML/tienda.php">Registrarse</a></td>
               <td class="urlUsr">Carrito </td>
           </tr>
-          <tr class="menu">
+          <tr class="nav">
               <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML/index.php">Inicio</a></td>
               <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a></td>
               <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a></td>

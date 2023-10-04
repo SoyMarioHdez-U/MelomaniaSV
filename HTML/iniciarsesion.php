@@ -4,21 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesión</title>
-    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css">
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/respaldo.css">
     
 </head>
 <body>
     
     <table>
         <tr class="header">
-            <td colspan="4" align="left"><a href="/HTML/index.html"><img src="/Img/Logo grande.png" height="50px"></a></td>
+            <td colspan="4" align="left"><a href="http://localhost/MelomaniaSV/HTML"><img src="/Img/Logo grande.png" height="50px"></a></td>
             <td colspan="3"><a class="urlUsr" href="/HTML/iniciarsesion.html">Iniciar Sesión</a></td>
             
             <td class="urlUsr"><a class="urlUsr" href="/HTML/registro.html">Registrarse</a></td>
             <td class="urlUsr">Carrito </td>
         </tr>
         <tr class="menu">
-            <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
+            <td><a class="urlIni" href="http://localhost/MelomaniaSV/HTML">Inicio</a></td>
             <td><a class="urlIni" href="/HTML/tienda.html">Tienda</a></td>
             <td><a class="urlIni" href="/HTML/cursos.html">Cursos</a></td>
             <td><a class="urlIni">Contactos</a></td>
