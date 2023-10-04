@@ -201,6 +201,14 @@ html, body {
 
 }
 
+.secciones {
+  
+  text-align: center;
+  font-size: 30px;
+  
+
+
+}
 .container_carru {
     background: #d9c6b4;
     position: relative;
@@ -209,7 +217,7 @@ html, body {
   }
   .container_carru #actions #arrowrigth .arrowrigth {
     cursor: pointer;
-    top: 30%;
+    top: 35%;
     width: 3%;
     position: absolute;
     z-index: 201;
@@ -221,7 +229,7 @@ html, body {
   }
   .container_carru #actions #arrowleft .arrowleft {
     cursor: pointer;
-    top: 30%;
+    top: 35%;
     width: 3%;
     position: absolute;
     z-index: 201;
@@ -240,84 +248,84 @@ html, body {
     position: relative;
     /*lado izquierdo*/
   }
-  @media only screen and (max-width: 2150px) {
-    .container_carru #items {
-      height: 630px;
-    }
-  }
-  @media only screen and (max-width: 2000px) {
-    .container_carru #items {
-      height: 570px;
-    }
-  }
-  @media only screen and (max-width: 1900px) {
-    .container_carru #items {
-      height: 540px;
-    }
-  }
-  @media only screen and (max-width: 1780px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 500px;
     }
   }
-  @media only screen and (max-width: 1680px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
-      height: 470px;
+      height: 500px;
     }
   }
-  @media only screen and (max-width: 1565px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
-      height: 420px;
+      height: 500px;
     }
   }
-  @media only screen and (max-width: 1430px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
-      height: 390px;
+      height: 500px;
     }
   }
-  @media only screen and (max-width: 1330px) {
+  @media only screen and (max-width: 1000px) {
+    .container_carru #items {
+      height: 500px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .container_carru #items {
+      height: 500px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .container_carru #items {
+      height: 500px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 360px;
     }
   }
-  @media only screen and (max-width: 1230px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 330px;
     }
   }
-  @media only screen and (max-width: 970px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 310px;
     }
   }
-  @media only screen and (max-width: 875px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 270px;
     }
   }
-  @media only screen and (max-width: 785px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 240px;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 235px;
     }
   }
-  @media only screen and (max-width: 640px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 150px;
     }
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 1000px) {
     .container_carru #items {
       height: 125px;
     }
   }
   .container_carru #items #item {
     display: none;
-    height: 80%;
+    height: 70%;
     position: absolute;
   }
   .container_carru #items .img_left {
