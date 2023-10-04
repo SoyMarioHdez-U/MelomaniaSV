@@ -9,6 +9,30 @@
 </head>
 
 <body class="fondo">
+  <!-- Menu principal (solo parta guiarme) -->
+  <div>
+    <table>
+          <tr class="header">
+              <td colspan="4" align="left"><a href="/HTML/index.html"><img src="http://localhost/melomania/MelomaniaSV/Img/Logo.png" height="50px"></a></td>
+              <td colspan="3"><a class="urlUsr" href="/HTML/iniciarsesion.html">Iniciar Sesión</a></td>
+              
+              <td class="urlUsr"><a class="urlUsr" href="/HTML/registro.html">Registrarse</a></td>
+              <td class="urlUsr">Carrito</td>
+          </tr>
+          <tr class="menu">
+              <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
+              <td><a class="urlIni" href="/HTML/tienda.html">Tienda</a></td>
+              <td><a class="urlIni" href="/HTML/cursos.html">Cursos</a></td>
+              <td><a class="urlIni">Contactos</a></td>
+              <td colspan="6"></td>
+              
+          </tr>
+    </table>
+
+
+  </div>
+
+
   <main>
     <!-- Parte cabezera de la tienda-->
     <section>

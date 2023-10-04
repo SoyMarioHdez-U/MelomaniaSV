@@ -6,7 +6,7 @@
     <title>Bienvenido - MelomaniaSV</title>
 
     <!-- Estilos de css y bootstrap -->
-    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
     
     
 </head>
