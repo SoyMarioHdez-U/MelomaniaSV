@@ -22,16 +22,23 @@
             
         </div>
         <div class="nav">
-            <div><a href="http://localhost//MelomaniaSV/HTML/">Inicio</a></div>
+            <div class="urlIni firstNav"><a href="http://localhost//MelomaniaSV/HTML/index.php">Inicio</a></div>
             <!-- Hipervinculo para acceder a la tienda y cursos-->
-            <a class="urlIni" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
-            <a class="urlIni" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
+            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
+            <a class="urlMenu" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
         </div>
         <div class="content">
             content
         </div>
         <div class="footer">
-            footer
+        <div class="logoFooter"><a href="http://localhost//MelomaniaSV/HTML/"><img src="http://localhost/MelomaniaSV/Img/Logo.png" height="50px"></a></div>
+        <div class="socialNetworks">
+            <a href="http://www.facebook.com"><img src="http://localhost/MelomaniaSV/Img/rss/facebook.png"></a>
+            <a href="http://www.twitter.com"><img src="http://localhost/MelomaniaSV/Img/rss/twitter.png"></a>
+            <a href="http://www.instagram.com"><img src="http://localhost/MelomaniaSV/Img/rss/instagram.png"></a>
+        </div>
+            <p>© 2023 Melomanía.</p>
+            <p class="lastFooter">Tecnologías Web - Universidad Católica de El Salvador</p>
         </div>
     </div>
     
