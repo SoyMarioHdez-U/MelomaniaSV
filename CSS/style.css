@@ -126,8 +126,8 @@ html, body {
 
 
 .container_carru {
-    background: #151515;
-    position: relative;
+    background: rgb(83, 14, 14);
+    position: center;
     /*cierre actions*/
     /*cierre items*/
   }
