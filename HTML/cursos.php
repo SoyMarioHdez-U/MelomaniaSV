@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda</title>
+    <title>Cursos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
 
@@ -77,7 +77,7 @@
     <table border="1" cellspasing="2" cellpadding="5">
         <tr>
             <th colspan="1" >Intermedio</th>
-            <th colspan="3">---------------------------------------------------------------</th>
+            <th colspan="3">-------------------------------------------------------------</th>
             <th colspan="3">ver más.........</th>
         </tr>
     </table>
@@ -106,7 +106,7 @@
     <table border="1" cellspasing="2" cellpadding="5">
         <tr>
             <th colspan="1" >Avanzado</th>
-            <th colspan="3">----------------------------------------------------------------</th>
+            <th colspan="3">--------------------------------------------------------------</th>
             <th colspan="3">ver más.........</th>
         </tr>
     </table>
