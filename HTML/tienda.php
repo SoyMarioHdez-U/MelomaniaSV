@@ -35,7 +35,8 @@
     <section>
       <div class="cabezera">
         <img src="http://localhost/MelomaniaSV/Img/tienda/tienda.jpeg" alt="tienda" width="1110px" height="500px">
-          <div>
+          <div class= "texto-superpuesto">
+            <h1>Tienda</h1>
           </div>
       </div>
     </section>
