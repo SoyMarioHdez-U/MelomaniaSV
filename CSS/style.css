@@ -746,3 +746,17 @@ html, body {
     }
   }
 
+.imagentienda {
+    position: relative;
+    width: 300px; /* Ancho de la imagen */
+}
+
+.texto-superpuesto {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 10px; /* Espaciado interno del texto */
+  font-family: 'Birthstone';
+  color: rgb(83, 14, 14);
+  text-align: center;
+  position: absolute;
+}
+
