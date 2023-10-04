@@ -15,7 +15,7 @@ p{
 }
 
 .title{
-    color: black;
+    color: rgb(31, 23, 23);
 }
 
 .titles{
@@ -79,6 +79,8 @@ p{
 
 .content{
   height: 360px;
+  box-sizing: border-box;
+  background-color: #d9c6b4;
 }
 
 
