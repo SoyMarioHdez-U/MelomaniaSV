@@ -34,7 +34,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
-                <img src="equiposonido.jpeg" alt="" width="267" height="200">
+                <img src="http://localhost/melomania/MelomaniaSV/Img/equiposonido.jpeg" alt="" width="267" height="200">
                 <div class="card-body">
                   <h5 class="card-title">Electrónicos y de sonido</h5>
                   <div class="d-flex justify-content-between align-items-center">
@@ -47,7 +47,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img src="libros.jpeg" alt="" width="267" height="200">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/instrumentos.jpeg" alt="" width="267" height="200">
                 <div class="card-body">
                   <h5 class="card-title">Instrumentos</h5>
                   <div class="d-flex justify-content-between align-items-center">
@@ -60,7 +60,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img src="instrumentos.jpeg" alt="" width="267" height="200">
+              <img src="http://localhost/melomania/MelomaniaSV/Img/libros.jpeg" alt="" width="267" height="200">
                 <div class="card-body">
                   <h5 class="card-title">Libros</h5>
                   <div class="d-flex justify-content-between align-items-center">
