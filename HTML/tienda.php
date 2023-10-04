@@ -5,32 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="http://localhost/melomania/MelomaniaSV/CSS/style.css"> 
+    <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
 </head>
 
 <body class="fondo">
   <!-- Menu principal (solo parta guiarme) -->
   <div>
-    <table>
-          <tr class="header">
-              <td colspan="4" align="left"><a href="/HTML/index.html"><img src="http://localhost/melomania/MelomaniaSV/Img/Logo.png" height="50px"></a></td>
-              <td colspan="3"><a class="urlUsr" href="/HTML/iniciarsesion.html">Iniciar Sesión</a></td>
-              
-              <td class="urlUsr"><a class="urlUsr" href="/HTML/registro.html">Registrarse</a></td>
-              <td class="urlUsr">Carrito</td>
-          </tr>
-          <tr class="menu">
-              <td><a class="urlIni" href="/HTML/index.html">Inicio</a></td>
-              <td><a class="urlIni" href="/HTML/tienda.html">Tienda</a></td>
-              <td><a class="urlIni" href="/HTML/cursos.html">Cursos</a></td>
-              <td><a class="urlIni">Contactos</a></td>
-              <td colspan="6"></td>
-              
-          </tr>
-    </table>
+        <div class="header">
+            <div class="logo"><a href="http://localhost//MelomaniaSV/HTML/"><img src="http://localhost/MelomaniaSV/Img/Logo.png" height="50px"></a></div>
+            <div class="sesion">
+                <div class="ini-sesion"><a href="http://localhost//MelomaniaSV/HTML/iniciarsesion.php">INICIAR SESIÓN</a></div>
+                <div class="registro">REGÍSTRATE</div>
+                <div class="carrito">$0.00</div>
+            </div>
+            
+        </div>
+        <div class="nav">
+            <div><a href="http://localhost//MelomaniaSV/HTML/">Inicio</a></div>
+            <!-- Hipervinculo para acceder a la tienda y cursos-->
+            <a class="urlIni" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
+            <a class="urlIni" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
+        </div>
 
 
-  </div>
+    </div>
 
 
   <main>
@@ -60,7 +58,7 @@
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm" >
-                <img src="http://localhost/melomania/MelomaniaSV/Img/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg" alt="" width="267" height="200">
+                <img src="http://localhost/MelomaniaSV/Img/AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER.jpg" alt="" width="267" height="200">
                 <div class="card-body">
                   <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
                   <p class="card-text">$200.00 </p>
@@ -76,7 +74,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/GUIT ACUSTICA CONCERT NYLON CLASSICAL CGIG BAG GODIN.jpeg" alt="" width="267" height="200">
                 <div class="card-body">
                   <h5 class="card-title">GUIT. ACUSTICA CONCERT NYLON CLASSICAL C/GIG BAG GODIN</h5>
                   <p class="card-text">$500.00 </p>
@@ -92,7 +90,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
@@ -109,7 +107,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
@@ -126,7 +124,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
@@ -143,7 +141,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
@@ -160,7 +158,7 @@
 
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
@@ -176,7 +174,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>
@@ -192,7 +190,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-              <img src="http://localhost/melomania/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
+              <img src="http://localhost/MelomaniaSV/Img/50-Partituras-Para-Aficionados-Al-Piano.jpg" alt="" width="267" height="200">
                 <div class="card-body" >
                   <h5 class="card-title">50 Partituras Para Aficionados Al Piano</h5>
                   <p class="card-text">$20.00</p>

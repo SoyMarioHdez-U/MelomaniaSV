@@ -24,8 +24,8 @@
         <div class="nav">
             <div><a href="http://localhost//MelomaniaSV/HTML/">Inicio</a></div>
             <!-- Hipervinculo para acceder a la tienda y cursos-->
-            <a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/tienda.php">Tienda</a>
-            <a class="urlIni" href="http://localhost/melomania/MelomaniaSV/HTML/cursos.php">Cursos</a>
+            <a class="urlIni" href="http://localhost/MelomaniaSV/HTML/tienda.php">Tienda</a>
+            <a class="urlIni" href="http://localhost/MelomaniaSV/HTML/cursos.php">Cursos</a>
         </div>
         <div class="content">
             content
