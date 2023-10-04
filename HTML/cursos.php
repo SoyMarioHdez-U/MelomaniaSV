@@ -42,18 +42,12 @@
             </tr>
     </table>
 </div>
-<div>
+
+<div class="container_carru">
     <!--carrusel cursos basicos-->
 
-    <table border="1" cellspasing="2" cellpadding="5">
-        <tr>
-            <th colspan="5" >Básicos</th>
-            <th colspan="5">-----------------------------------------------------------------</th>
-            <th colspan="5">ver mas.....</th>
-        </tr>
-    </table>
-</div>
-<div class="container_carru">
+    <h1 class="titles">Cursos Basicos</h1>
+
   <div id="actions">
     <a id="arrowrigth">
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
@@ -71,18 +65,9 @@
   </div>
 </div>
 
-<div>
-    <!--carrusel cursos Intermedio-->
-
-    <table border="1" cellspasing="2" cellpadding="5">
-        <tr>
-            <th colspan="1" >Intermedio</th>
-            <th colspan="3">-------------------------------------------------------------</th>
-            <th colspan="3">ver más.........</th>
-        </tr>
-    </table>
-</div>
 <div class="container_carru">
+    <!--carrusel cursos Intermedio-->
+    <h1 class="titles">Cursos Intermedios</h1>
   <div id="actions">
     <a id="arrowrigth">
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
@@ -99,18 +84,11 @@
     <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
   </div>
 </div>
-</div>
-<div>
-    <!--carrusel cursos Avanzado-->
 
-    <table border="1" cellspasing="2" cellpadding="5">
-        <tr>
-            <th colspan="1" >Avanzado</th>
-            <th colspan="3">--------------------------------------------------------------</th>
-            <th colspan="3">ver más.........</th>
-        </tr>
-    </table>
     <div class="container_carru">
+         <!--carrusel cursos Avanzado-->
+         <h1 class="titles">Cursos Avanzados</h1>
+
   <div id="actions">
     <a id="arrowrigth">
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
