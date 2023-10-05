@@ -20,6 +20,7 @@
           <div class="ini-sesion"><a href="http://localhost//MelomaniaSV/HTML/iniciarsesion.php">INICIAR SESIÓN</a></div>
           <div class="registro">REGÍSTRATE</div>
           <div><button><i class="fas fa-shopping-cart mi-icono-de-carrito"></i></button></div>
+          <!-- Se agrego este carrito-->
       </div>          
     </div>
 
