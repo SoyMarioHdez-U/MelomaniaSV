@@ -8,7 +8,10 @@
     <link rel="icon" href="http://localhost/MelomaniaSV/Img/icono.png" type="image/x-icon">
 
      <!-- Estilos de css y bootstrap -->
-     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
+     <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 
 </head>
 <body>
@@ -61,11 +64,11 @@
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cello.jpg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bateria.jpg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/consola.jpg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/trompeta.jpg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/solfeo1.jpg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cello.jpeg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bateria.jpg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/consola.jpg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/trompeta.jpg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/solfeo1.jpg" width="600" height="424">
   </div>
 </div>
 

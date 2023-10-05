@@ -213,6 +213,8 @@ html, body {
 
 
 }
+
+
 .container_carru {
     background: #d9c6b4;
     position: relative;
@@ -221,8 +223,8 @@ html, body {
   }
   .container_carru #actions #arrowrigth .arrowrigth {
     cursor: pointer;
-    top: 35%;
-    width: 3%;
+    top: 50%;
+    width: 5%;
     position: absolute;
     z-index: 201;
     right: 10px;
@@ -233,8 +235,8 @@ html, body {
   }
   .container_carru #actions #arrowleft .arrowleft {
     cursor: pointer;
-    top: 35%;
-    width: 3%;
+    top: 50%;
+    width: 5%;
     position: absolute;
     z-index: 201;
     left: 10px;
@@ -252,81 +254,7 @@ html, body {
     position: relative;
     /*lado izquierdo*/
   }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 500px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 360px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 330px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 310px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 270px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 240px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 235px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 150px;
-    }
-  }
-  @media only screen and (max-width: 1000px) {
-    .container_carru #items {
-      height: 125px;
-    }
-  }
+ 
   .container_carru #items #item {
     display: none;
     height: 50%;
