@@ -1,5 +1,5 @@
 <?php
-require "config/config.php";
+require 'config/config.php';
 
 ?>
 
@@ -71,8 +71,8 @@ require "config/config.php";
                   <p class="card-text">$200.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a href="detalles.php?id=<?php echo $row['id']; ?>&token=<?php echo 
-                      hash_hmac('sha224', $row['id'], KEY_TOKEN); ?>" class="botondetalles">Detalles</a>
+                      <a href="details.php?id=<?php echo $row['id']; ?>&token=<?php echo 
+                      hash_hmac('sha1', $row['id'], KEY_TOKEN); ?>" class="botondetalles">Detalles</a>
                     </div>
                       <a href="" class="botoncarrito">Agregar</a>
                   </div>
