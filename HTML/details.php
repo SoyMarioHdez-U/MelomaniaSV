@@ -1,3 +1,41 @@
+<?php
+require 'config/config.php';
+
+$id = isset($_GET['id']) ? $_GET['id'] : '';
+$token = isset($_GET['token']) ? $_GET['token'] : '';
+
+if($id == '' || $token == '')
+{
+  echo 'Error al procesar la peticion';
+  exit;
+
+} else {
+  $token_tmp = hash_hmac('sha1', $id, KEY_TOKEN);
+
+  if ($token == $token_tmp) {
+
+    echo "Aquí deberían de ir los datos que nosotros jalaríamos de nuestra base de datos";
+    $sql = $con->prepare("SELECT count(id), nombre, precio FROM productos WHERE activo=1");
+    $sql = $con->execute([$id]);
+    if($sql->fetchColumn() > 0)
+    {
+      $sql = $con->prepare("SELECT count(id), nombre, descripcion, precio FROM productos WHERE activo=1
+    LIMIT 1");
+      $sql = $con->execute([$id]);
+      $row = $row['nombre'];
+      $descripcion = $row['descripcion'];
+      $precio = $row['precio'];
+    }
+
+  }else {
+    echo 'Error al procesar la peticion';
+    exit;
+  }
+
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +78,25 @@
           <div class= "texto-superpuesto">
             <h1>Tienda</h1>
           </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-md-1"> 
+            <!--Aquí va la imagen del producto-->
+            
+
+          </div>
+          <div class="col-md-6 order-md-2"> 
+            <!--Aquí los detalles y descripción del producto traido desde la base de datos-->
+
+          </div>
+
+
+        </div>
+
+
+
       </div>
     </section>
       
