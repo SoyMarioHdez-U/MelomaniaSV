@@ -5,6 +5,7 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cursos</title>
+    <link rel="icon" href="http://localhost/MelomaniaSV/Img/icono.png" type="image/x-icon">
 
      <!-- Estilos de css y bootstrap -->
      <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css"> 
@@ -56,14 +57,14 @@
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cello.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bateria.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/consola.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/trompeta.jpeg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cello.jpg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bateria.jpg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/consola.jpg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/trompeta.jpg">
     <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/solfeo1.jpg">
   </div>
 </div>
@@ -80,7 +81,7 @@
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
   <div id="items">
@@ -104,7 +105,7 @@
       <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="https://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
   <div id="items">

@@ -246,9 +246,9 @@ html, body {
   .container_carru #items {
     padding: 5%;
     cursor: move;
-    z-index: 200;
+    z-index: 100;
     overflow: hidden;
-    height: 750px;
+    height: 500px;
     position: relative;
     /*lado izquierdo*/
   }
@@ -329,8 +329,8 @@ html, body {
   }
   .container_carru #items #item {
     display: none;
-    height: 70%;
-    position: absolute;
+    height: 50%;
+    position: center;
   }
   .container_carru #items .img_left {
     display: block !important;
