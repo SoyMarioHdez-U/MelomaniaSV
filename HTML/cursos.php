@@ -10,8 +10,7 @@
      <!-- Estilos de css y bootstrap -->
      <link rel="stylesheet" href="http://localhost/MelomaniaSV/CSS/style.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+  
 
 </head>
 <body>
@@ -50,10 +49,10 @@
 <div class= "container_carru">
     <!--carrusel cursos basicos-->
 
-    <h1 class="titles">Cursos Basicos</h1>
-    <div style="text-align: center">
-    <button class="BotonC">Ver Más....</button>
-    </div>
+    <h1 class="titles">Cursos Basicos
+      -------------------------------------------------------------------------------- 
+      <a button class="BotonC" href="http://localhost/MelomaniaSV/HTML/cursosBasicos.php">Ver Más....</button></h1>
+   
 
   <div id="actions">
     <a id="arrowrigth">
@@ -64,20 +63,22 @@
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cello.jpeg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bateria.jpg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/consola.jpg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/trompeta.jpg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/solfeo1.jpg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/cello.jpeg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/bateria.jpeg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/consola.jpeg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/trompeta.jpeg" width="600" height="424">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/solfeo1.jpeg" width="600" height="424">
+
   </div>
+
 </div>
 
 <div class="container_carru">
     <!--carrusel cursos Intermedio-->
-    <h1 class="titles">Cursos Intermedios</h1>
-    <div style="text-align: center">
-    <button class="BotonC">Ver Más....</button>
-    </div>
+    <h1 class="titles">Cursos Intermedios
+      -----------------------------------------------------------------------------
+    <a button class="BotonC" href="http://localhost/MelomaniaSV/HTML/cursosIntermedios.php">Ver Más....</button></h1>
+   
 
   <div id="actions">
     <a id="arrowrigth">
@@ -96,12 +97,13 @@
   </div>
 </div>
 
+
     <div class="container_carru">
          <!--carrusel cursos Avanzado-->
-         <h1 class="titles">Cursos Avanzados</h1>
-         <div style="text-align: center">
-    <button class="BotonC">Ver Más....</button>
-    </div>
+         <h1 class="titles">Cursos Avanzados
+          -----------------------------------------------------------------------------
+        <a button class="BotonC" href="http://localhost/MelomaniaSV/HTML/cursosAvanzado.php">Ver Más....</button></h1>
+         
 
   <div id="actions">
     <a id="arrowrigth">

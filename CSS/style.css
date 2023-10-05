@@ -19,6 +19,7 @@ p{
 }
 
 .titles{
+    font-size: 45px;
     font-family: 'Birthstone';
     color: rgb(83, 14, 14);
     text-align: center;
@@ -206,7 +207,7 @@ html, body {
 }
 
 .secciones {
-  
+  font-family: 'Italiana-Regular';
   text-align: center;
   font-size: 30px;
   
