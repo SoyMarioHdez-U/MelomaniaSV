@@ -50,16 +50,16 @@
     <!--carrusel cursos basicos-->
 
     <h1 class="titles">Cursos Basicos
-      -------------------------------------------------------------------------------- 
+      -----------------------------------------------------------------------
       <a button class="BotonC" href="http://localhost/MelomaniaSV/HTML/cursosBasicos.php">Ver Más....</button></h1>
    
 
   <div id="actions">
     <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      <img src="http://localhost/MelomaniaSV/Img/cursos/flecha-correcta.png" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="http://localhost/MelomaniaSV/Img/cursos/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
   <div id="items">
@@ -76,24 +76,24 @@
 <div class="container_carru">
     <!--carrusel cursos Intermedio-->
     <h1 class="titles">Cursos Intermedios
-      -----------------------------------------------------------------------------
+      -----------------------------------------------------------------------
     <a button class="BotonC" href="http://localhost/MelomaniaSV/HTML/cursosIntermedios.php">Ver Más....</button></h1>
    
 
   <div id="actions">
     <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      <img src="http://localhost/MelomaniaSV/Img/cursos/flecha-correcta.png" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="http://localhost/MelomaniaSV/Img/cursos/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/libro-solfeo.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/microfono.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/bongos.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/libro-solfeo.jpeg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/microfono.jpeg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/bongos.jpeg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/guitarra.jpeg">
+    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/saxofon.jpeg">
   </div>
 </div>
 
@@ -101,24 +101,24 @@
     <div class="container_carru">
          <!--carrusel cursos Avanzado-->
          <h1 class="titles">Cursos Avanzados
-          -----------------------------------------------------------------------------
+          ------------------------------------------------------------------------
         <a button class="BotonC" href="http://localhost/MelomaniaSV/HTML/cursosAvanzado.php">Ver Más....</button></h1>
          
 
   <div id="actions">
     <a id="arrowrigth">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowrigth">
+      <img src="http://localhost/MelomaniaSV/Img/cursos/flecha-correcta.png" class="arrowrigth">
     </a>
     <a id="arrowleft">
-      <img src="http://localhost/MelomaniaSV/Img/flecha-correcta.png" class="arrowleft">
+      <img src="http://localhost/MelomaniaSV/Img/cursos/flecha-correcta.png" class="arrowleft">
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/piano.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/violin.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/DIRECCION.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/guitarra.jpeg">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/saxofon.jpeg">
+    <img draggable="false" id="item" src="http://www.solofondos.com/wp-content/uploads/2015/12/bateria-de-rock-9076.jpg">
+    <img draggable="false" id="item" src="http://www.solofondos.com/wp-content/uploads/2015/12/unnamed-24.jpg">
+    <img draggable="false" id="item" src="http://1.bp.blogspot.com/-YKkaOeaRWxM/WfIvLajV6cI/AAAAAAAAN6U/sa0e5G5dtx4lNEymFKOW8bYdh6FO9TRQwCLcBGAs/s1600/in%2B%25286%2529.jpg">
+    <img draggable="false" id="item" src="http://1.bp.blogspot.com/-sohMYn3q8xk/WfIvMReGBSI/AAAAAAAAN6k/2z3lEDhRBRI_y6vTMggu1yCj-YLT9KYVgCLcBGAs/s1600/in%2B%25289%2529.jpg">
+    <img draggable="false" id="item" src="http://3.bp.blogspot.com/-0zOArpfPNac/UVO51LxAs-I/AAAAAAAAUB0/DvYs2qv-tZU/s1600/instrumentos%2Bmusic%2B(19).jpg">
   </div>
 </div>
 
