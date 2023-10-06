@@ -1,7 +1,4 @@
-<?php
-require 'config/config.php';
 
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -70,11 +67,14 @@ require 'config/config.php';
                   <h5 class="card-title">AMPLIFICADOR PARA GUITARRA ELECTRICA 100W CHAMPION FENDER</h5>
                   <p class="card-text">$200.00 </p>
                   <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
+                    <!--<div class="btn-group">
                       <a href="details.php?id=<?php echo $row['id']; ?>&token=<?php echo 
                       hash_hmac('sha1', $row['id'], KEY_TOKEN); ?>" class="botondetalles">Detalles</a>
+                    </div> -->
+                    <div class="btn-group">
+                      <a href=" " class="botondetalles">Detalles</a>
                     </div>
-                      <a href="" class="botoncarrito">Agregar</a>
+                      <a href=" " class="botoncarrito">Agregar</a>
                   </div>
                 </div>
               </div>
