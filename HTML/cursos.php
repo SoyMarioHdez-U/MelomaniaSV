@@ -63,12 +63,11 @@
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/cello.jpeg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/bateria.jpeg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/consola.jpeg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/trompeta.jpeg" width="600" height="424">
-    <img draggable="false" id="item" src="http://localhost/MelomaniaSV/Img/cursos/solfeo1.jpeg" width="600" height="424">
-
+  <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" ">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
+    <img draggable="false" id="item" src="http://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
   </div>
 
 </div>
@@ -114,13 +113,16 @@
     </a>
   </div>
   <div id="items">
-    <img draggable="false" id="item" src="http://www.solofondos.com/wp-content/uploads/2015/12/bateria-de-rock-9076.jpg">
-    <img draggable="false" id="item" src="http://www.solofondos.com/wp-content/uploads/2015/12/unnamed-24.jpg">
-    <img draggable="false" id="item" src="http://1.bp.blogspot.com/-YKkaOeaRWxM/WfIvLajV6cI/AAAAAAAAN6U/sa0e5G5dtx4lNEymFKOW8bYdh6FO9TRQwCLcBGAs/s1600/in%2B%25286%2529.jpg">
-    <img draggable="false" id="item" src="http://1.bp.blogspot.com/-sohMYn3q8xk/WfIvMReGBSI/AAAAAAAAN6k/2z3lEDhRBRI_y6vTMggu1yCj-YLT9KYVgCLcBGAs/s1600/in%2B%25289%2529.jpg">
-    <img draggable="false" id="item" src="http://3.bp.blogspot.com/-0zOArpfPNac/UVO51LxAs-I/AAAAAAAAUB0/DvYs2qv-tZU/s1600/instrumentos%2Bmusic%2B(19).jpg">
+   <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.58LdOl81xyiPtzI-SGi9xgHaFV?pid=ImgDet&rs=1" alt=" ">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/OIP.3wbBhOw6xUzv4g-ThR_-JgHaE7?pid=ImgDet&rs=1" alt="">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.76362c642d0b0c87bf4fc2541bf6679f?rik=E4oxmORvoBoecg&pid=ImgRaw&r=0" alt="" >
+    <img draggable="false" id="item" src="http://www.1zoom.me/big2/84/184275-Sepik.jpg" alt="">
+    <img draggable="false" id="item" src="http://th.bing.com/th/id/R.a77d53bf43b85e08d774d39bf9196a79?rik=iSYDP1%2fnonkS7g&pid=ImgRaw&r=0" alt="">
   </div>
 </div>
+
+<script src="http://localhost//MelomaniaSV/js/cursos.js"></script>
+
 
 <div class="footer">
         <div class="logoFooter"><a href="http://localhost//MelomaniaSV/HTML/"><img src="http://localhost/MelomaniaSV/Img/Logo.png" height="50px"></a></div>
